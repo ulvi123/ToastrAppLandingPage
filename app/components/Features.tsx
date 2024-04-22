@@ -9,7 +9,7 @@ import Image from "next/image";
 
 export default function Features() {
   return (
-    <div className='flex flex-col gap-y-[56px] py-[56px] lg:py-[120px] lg:gap-y-[80px]'>
+    <div className='flex flex-col gap-y-[56px] py-[56px] lg:py-[120px] lg:gap-y-[80px]' id="features">
       <div className='flex flex-col gap-x-6 sm:flex-row-reverse'>
         <Image
           src={feature1}

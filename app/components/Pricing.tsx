@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export function Pricing() {
   return (
-    <div className='py-[49px] lg:py-[60px]'>
+    <div className='py-[49px] lg:py-[60px]' id="pricing">
       <h1 className='text-[#172026] text-center font-medium text-[24px] text-2xl lg:text-[42px]'>
         Pricing specific for you
       </h1>

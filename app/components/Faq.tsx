@@ -25,7 +25,7 @@ const items = [
 
 export function Faq() {
   return (
-    <div className='flex flex-col w-full py-[49px] lg:py-[60px] lg:flex-row lg:gap-x-6'>
+    <div className='flex flex-col w-full py-[49px] lg:py-[60px] lg:flex-row lg:gap-x-6' id="faq">
       <div className='lg:w-1/3 lg:py-[34px] lg:pr-[55px]'>
         <h3 className='text-[#ff007b] font-medium text-[14px] lg:text-base'>
           Frequently Asked Questions
