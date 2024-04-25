@@ -7,6 +7,7 @@ import Slack from "../../public/assets/Slack.svg";
 import TrustPilot from "../../public/assets/Trustpilot.svg";
 import Cnn from "../../public/assets/CNN.svg";
 import Clutch from "../../public/assets/Clutch.svg";
+import Link from "next/link";
 
 export function Hero() {
   return (
@@ -16,21 +17,28 @@ export function Hero() {
           Build your startup like a Pro
         </h1>
         <p className='text-center pt-6 text-[#36585C] font-light lg:text-[19px] lg:leading-7'>
-          Get an eye view with our customizable dashboard. Stay on top of
-          things! Revolutionize the way you build your startup and your work
-          process with our game-changing feature. Boost productivity and
-          efficiency!
+          ToastrAI is your one-stop solution for building your startup. It’s
+          like having a toolbox and a team of experienced mentors, all in one
+          place.
+          <br />
+          It helps you stay organized, make informed and calculated decisions,
+          and work more efficiently. Start building your dream startup with
+          ToastrAI today!
         </p>
 
         <div className='flex w-full pt-8 justify-center gap-x-8'>
-          <button className='bg-[#4328EB] text-white w-1/2 py-4 px-8 rounded-[5px] lg:w-fit'>
-            Try it free
-          </button>
+          <Link href={"#pricing"}>
+            <button className='bg-[#4328EB] text-white w-1/2 py-4 px-8 rounded-[5px] lg:w-fit'>
+              Pre-sales
+            </button>
+          </Link>
           <button className='w-1/2 text-[#4328EB] flex items-center justify-center gap-x-3 lg:w-fit'>
             View Pricing
-            <span>
-              <Image src={BlueArrow} alt='blueArrow' />
-            </span>
+            <Link href={"#pricing"}>
+              <span>
+                <Image src={BlueArrow} alt='blueArrow' />
+              </span>
+            </Link>
           </button>
         </div>
       </div>

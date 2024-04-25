@@ -18,10 +18,10 @@ export default function Features() {
         />
         <div className='sm:w-1/2 lg:py-[56px] lg:pr-[56px]'>
           <h3 className='font-medium text-[#0085ff] text-[20px] lg:text-[18px]'>
-            Product monitoring
+          Product Lifecycle Simplified
           </h3>
           <h1 className='pt-[13px] text-1xl font-medium text-[#172026] lg:text-[43px] lg:lead lg:gap-y-[10px]'>
-            Simplify the product building process by 5x
+          Streamline Your Path from Concept to Market
           </h1>
           <Image
             src={feature1}
@@ -29,8 +29,7 @@ export default function Features() {
             className='pt-[24px] sm:hidden'
           />
           <p className='py-[24px] text-[#36585C] lg:text-[18px]'>
-            Create your product with the help of the tools you already
-            have.Streamline your startups journey.
+          Access a suite of tools that streamline your product development from ideation to launch. Simplify stakeholder collaboration, track real-time progress of your startup, and turn vision into market success with unmatched efficiency.There is no need for spending tens of thousands dollars on development before knowing if it is worth to.
           </p>
 
           <ul className='flex flex-col gap-y-3 lg:text-[18px]'>
@@ -38,27 +37,27 @@ export default function Features() {
               <span>
                 <Image src={CheckMark} alt='Checkmark' />
               </span>
-              Lorem Ipsum dolor sit amet
+              Idea validation with AI
             </li>
             <li className='flex items-center gap-x-3 text-[#36585C]'>
               <span>
                 <Image src={CheckMark} alt='Checkmark' />
               </span>
-              Lorem Ipsum dolor sit amet
+             Concept roasting by seasoned entrepreneurs
             </li>
             <li className='flex items-center gap-x-3 text-[#36585C]'>
               <span>
                 <Image src={CheckMark} alt='Checkmark' />
               </span>
-              Lorem Ipsum dolor sit amet
+              Idea Mapping and Collaborative brainstorming tools
             </li>
           </ul>
-          <p className='flex items-center gap-x-3 text-[#0085FF] pt-[24px] font-medium lg:text-[18px]'>
+          {/* <p className='flex items-center gap-x-3 text-[#0085FF] pt-[24px] font-medium lg:text-[18px]'>
             Learn More
             <span>
               <Image src={BlueButton} alt='BlueButton' />
             </span>
-          </p>
+          </p> */}
         </div>
       </div>
 
@@ -70,10 +69,10 @@ export default function Features() {
         />
         <div className='sm:w-1/2 lg:py-[56px] lg:pl-[56px]'>
           <h3 className='font-medium text-[#4aaf48] text-[20px] lg:text-[18px]'>
-            Progress tracking and reporting
+            Progress tracking and Agile Roadmapping
           </h3>
           <h1 className='pt-[13px] text-1xl font-medium text-[#172026] lg:text-[43px] lg:lead lg:gap-y-[10px]'>
-            Create milestones and gamifed steps to optimize your product journey
+            Interactive Workspaces  to create projects,milestones and gamified progress map for better optimization
           </h1>
           <Image
             src={feature2}
@@ -81,37 +80,35 @@ export default function Features() {
             className='pt-[24px] sm:hidden'
           />
           <p className='py-[24px] text-[#36585C] lg:text-[18px]'>
-            With the help of the tools you already have, create your product and
-            track your progress.Make it obvious for other teams to know how you
-            do
+            Once you created the workspace, added projects and created progress maps, invite other teams or members to optimize product building,sales and marketing operations in one unified environment. Decide who is involved in which part and make the product journey transparent
           </p>
 
-          <ul className='flex flex-col gap-y-3 lg:text-[18px]'>
+          <ul className='flex flex-col gap-y-4 lg:text-[18px]'>
             <li className='flex items-center gap-x-3 text-[#36585C] '>
               <span>
                 <Image src={CheckMark} alt='Checkmark' />
               </span>
-              Lorem Ipsum dolor sit amet
+              Generate  progress maps from steps to track progress
             </li>
             <li className='flex items-center gap-x-3 text-[#36585C]'>
               <span>
                 <Image src={CheckMark} alt='Checkmark' />
               </span>
-              Lorem Ipsum dolor sit amet
+              Analyze and share analytics of each achieved milestone across teams
             </li>
-            <li className='flex items-center gap-x-3 text-[#36585C]'>
+            <li className='flex items-center gap-x-3 text-[#36585C] '>
               <span>
                 <Image src={CheckMark} alt='Checkmark' />
               </span>
-              Lorem Ipsum dolor sit amet
+              Create roadmap of milestones that suits your startup goals
             </li>
           </ul>
-          <p className='flex items-center gap-x-3 text-[#58b35f] pt-[24px] font-medium lg:text-[18px]'>
+          {/* <p className='flex items-center gap-x-3 text-[#58b35f] pt-[24px] font-medium lg:text-[18px]'>
             Learn More
             <span>
               <Image src={GreenButton} alt='BlueButton' />
             </span>
-          </p>
+          </p> */}
         </div>
       </div>
 
@@ -123,11 +120,11 @@ export default function Features() {
         />
         <div className='sm:w-1/2 lg:py-[56px] lg:pr-[56px]'>
           <h3 className='font-medium text-[#0085ff] text-[20px] lg:text-[18px]'>
-            Investor and Founder meetings
+            Time to sell to your customers
           </h3>
           <h1 className='pt-[13px] text-1xl font-medium text-[#172026] lg:text-[43px] lg:lead lg:gap-y-[10px]'>
-            Make it easy for your team to streamline the investor pipeline and
-            find the right investor
+            Generate the sales pipeline and
+            create marketing campaigns with AI that actually works
           </h1>
           <Image
             src={feature3}
@@ -135,29 +132,25 @@ export default function Features() {
             className='pt-[24px] sm:hidden'
           />
           <p className='py-[24px] text-[#36585C] lg:text-[18px]'>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore
-            aspernatur voluptate aliquid a placeat rerum perferendis quam.
-            Beatae culpa ducimus consequatur modi necessitatibus non quibusdam
-            dolorem fugit quo excepturi reprehenderit facere temporibus,
-            assumenda commodi accusantium ipsam veniam tempora laudantium vero!
+            And now with your idea being validated and product strategy laid out, you can start creating your sales and marketing campaigns, generate pipelines,optimize and send cold emails to your audience. Reach the first revenues without writing ANY LINE OF CODE. 
           </p>
 
           <div className='flex w-full gap-x-[24px]  pt-[25px]'>
             <div className="w-1/2 flex flex-col gap-y-3">
-              <h3 className="text-[20px] font-medium text-[#36585C]">120+</h3>
-              <p className="text-[#36585C]">Lorem ipsum</p>
+              <h3 className="text-[20px] font-medium text-[#36585C]">10+</h3>
+              <p className="text-[#36585C]">Startups building out</p>
             </div>
             <div className="w-1/2 flex flex-col gap-y-3">
-              <h3 className="text-[20px] font-medium text-[#36585C]">190+</h3>
-              <p className="text-[#36585C]">Lorem ipsum</p>
+              <h3 className="text-[20px] font-medium text-[#36585C]">12+</h3>
+              <p className="text-[#36585C]">Investors and Accelerators</p>
             </div>
           </div>
-          <p className='flex items-center gap-x-3 text-[#ff007b] pt-[24px] font-medium lg:text-[18px]'>
+          {/* <p className='flex items-center gap-x-3 text-[#ff007b] pt-[24px] font-medium lg:text-[18px]'>
             Learn More
             <span>
               <Image src={PinkButton} alt='BlueButton' />
             </span>
-          </p>
+          </p> */}
         </div>
       </div>
     </div>

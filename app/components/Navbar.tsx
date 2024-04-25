@@ -5,7 +5,7 @@ import Logo from "../../public/assets/logo2.svg";
 import User from "../../public/assets/User.svg";
 import Menu from "../../public/assets/Menu.svg";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+
 
 const navLinks = [
   {
